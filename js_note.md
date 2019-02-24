@@ -228,9 +228,9 @@ function GetQueryString(name)
 
 ## blur事件优于click事件执行解决
 
-###解决1：
+### 解决1：
     将click事件换成mousedown
-###解决2：
+### 解决2：
     延迟执行blur，延迟二三百毫秒
 
 ## scroll事件多次执行处理
